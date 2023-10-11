@@ -1,0 +1,32 @@
+body{
+    background-color: #083b4c !important;
+}
+#wrapper{
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-flow: row wrap;
+    align-content: start;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background-color: #1389b2;
+    text-align: center;
+    line-height: 50px;
+}
+.box.fizz{
+    background-color: #0cd6a1;
+}
+.box.buzz{
+    background-color: #ffd166;
+}
+.box.fizzbuzz{
+    background-color: #f0466f;
+}
